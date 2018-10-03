@@ -15,4 +15,10 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+cd ~/
+git clone git://github.com/JuliaEditorSupport/julia-vim.git
+cd julia-vim
+mkdir -p ~/.vim
+cp -R * ~/.vim
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
