@@ -1,0 +1,17 @@
+bind | split-window -h
+bind - split-window -v
+unbind '"'
+unbind %
+ 
+set -g base-index 1
+
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+
+# remap prefix from 'C-b' to 'C-a'
+unbind C-b
+set-option -g prefix C-k
+bind-key C-k send-prefix
