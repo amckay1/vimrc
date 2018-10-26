@@ -2,6 +2,14 @@
 
 # The Ultimate vimrc
 
+#NOTE:
+Edited by AM, should have tmux hotkey for C+b binding, not yet split panes or movement between panes. Still needs vim 8.0 upgrade in shell.
+Run install_awesome_vimrc.sh for custom approach
+
+
+
+
+
 Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
 
 There are two versions:

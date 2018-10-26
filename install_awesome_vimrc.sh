@@ -21,4 +21,9 @@ cd julia-vim
 mkdir -p ~/.vim
 cp -R * ~/.vim
 
+echo "unbind C-b" >> ~/.tmux.conf
+echo "set-option -g prefix C-k" >> ~/.tmux.conf
+echo "bind-key C-a send-prefix" >> ~/.tmux.conf
+
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
